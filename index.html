@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <input type="text" id="name" placeholder="Enter the vehicle model: " autocomplete="off">
+    <input type="text" id="license-plate" placeholder="Enter the license plate number: " autocomplete="off">
+    <button id="register" class="success">Register</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>License Plate</th>
+                <th>Entry</th>
+                <th>Actions</th>
+
+            </tr>
+        </thead>
+        <tbody id="garage"></tbody>
+    </table>
+    <script src="./ts/main.js"></script>
+</body>
+
+</html>
